@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <div className="main">
+        <h1 className="title">Hello!</h1>
+        <p className="text">
+          I am trying to find a nice way of stopping the keyboard on iOS from
+          pushing all the view up. This problem only happens on iOS. On Android,
+          things work as expected.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div className="search">
+        <input
+          type="text"
+          className="search__input"
+          placeholder="focus to expand this block"
+        />
+      </div>
     </div>
   );
 }
