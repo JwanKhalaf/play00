@@ -7,6 +7,8 @@ body {
   padding: 1em;
   position: fixed;
   overscroll-behavior: contain;
+  left: 0;
+  right: 0;
 }
 
 .title,
